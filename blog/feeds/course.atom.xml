@@ -105,7 +105,35 @@ def lottery(e):
 document["but2"].bind("click", lottery)
 &lt;/script&gt;
 &lt;button id="but2"&gt;恭喜中獎&lt;/button&gt;
-&lt;/pre&gt;</summary><category term="Brython"></category></entry><entry><title>耶誕快樂</title><link href="./ye-dan-kuai-le.html" rel="alternate"></link><published>2016-12-23T12:00:00+08:00</published><updated>2016-12-23T12:00:00+08:00</updated><author><name>Kay</name></author><id>tag:,2016-12-23:./ye-dan-kuai-le.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;建立一個數字遊戲&lt;/p&gt;
+&lt;div id="id3"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document
+from browser import html
+import random
+
+id3 = document["id3"]   
+標準答案 = random.randint(1, 100)
+你猜的數字 = int(input("請輸入您所猜的整數:"))
+猜測次數 = 1
+def gusse(e):
+while 標準答案 != 你猜的數字:
+    if 標準答案 &lt; 你猜的數字:
+        #print("太大了，再猜一次 :)加油")
+        id3 &lt;= "太大了，再猜一次 :)加油" + html.BR()
+    else:
+        #print("太小了，再猜一次 :)加油")
+        id3 &lt;= "太小了，再猜一次 :)加油" + html.BR()
+    你猜的數字 = int(input("請輸入您所猜的整數:"))
+    猜測次數 += 1
+
+#print("猜對了！總共猜了" + 猜測次數 + "次")
+id3 &lt;= "猜對了！總共猜了" + 猜測次數 + "次" + html.BR()
+
+&lt;/script&gt;</summary><category term="Brython"></category></entry><entry><title>耶誕快樂</title><link href="./ye-dan-kuai-le.html" rel="alternate"></link><published>2016-12-23T12:00:00+08:00</published><updated>2016-12-23T12:00:00+08:00</updated><author><name>Kay</name></author><id>tag:,2016-12-23:./ye-dan-kuai-le.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
