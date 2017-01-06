@@ -650,7 +650,7 @@ fdegree = float(cdegree)*9/5+32
 output_string = "攝氏" +str(cdegree) + "度=華氏" +str(fdegree) + "度"
 container &lt;= output_string
 &lt;/script&gt;
-&lt;/pre&gt;</summary><category term="Brython"></category></entry><entry><title>W12 Brython 繪圖練習</title><link href="./w12-brython-hui-tu-lian-xi.html" rel="alternate"></link><published>2016-12-02T12:00:00+08:00</published><updated>2016-12-02T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-12-02:./w12-brython-hui-tu-lian-xi.html</id><summary type="html">&lt;p&gt;Brython 繪圖&lt;/p&gt;
+&lt;/pre&gt;</summary><category term="Brython"></category></entry><entry><title>W12 Brython 繪圖練習</title><link href="./w12-brython-hui-tu-lian-xi.html" rel="alternate"></link><published>2016-12-02T12:00:00+08:00</published><updated>2016-12-02T12:00:00+08:00</updated><author><name>Kay</name></author><id>tag:,2016-12-02:./w12-brython-hui-tu-lian-xi.html</id><summary type="html">&lt;p&gt;Brython 繪圖&lt;/p&gt;
 
 
 &lt;p&gt;繪圖流程, 導入程式庫, 啟動, 然後引用各種模組開始繪圖.&lt;/p&gt;
@@ -769,7 +769,7 @@ w = 20
 h = 30
 background(100, 100, w, h, 5, 5, ctx)
 &lt;/script&gt;
-&lt;/pre&gt;</summary><category term="Brython"></category></entry><entry><title>W10 Brython 繪圖範例</title><link href="./w10-brython-hui-tu-fan-li.html" rel="alternate"></link><published>2016-11-25T12:00:00+08:00</published><updated>2016-11-25T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-11-25:./w10-brython-hui-tu-fan-li.html</id><summary type="html">&lt;p&gt;Brython 繪圖&lt;/p&gt;
+&lt;/pre&gt;</summary><category term="Brython"></category></entry><entry><title>W10 Brython 繪圖範例</title><link href="./w10-brython-hui-tu-fan-li.html" rel="alternate"></link><published>2016-11-25T12:00:00+08:00</published><updated>2016-11-25T12:00:00+08:00</updated><author><name>Kay</name></author><id>tag:,2016-11-25:./w10-brython-hui-tu-fan-li.html</id><summary type="html">&lt;p&gt;Brython 繪圖&lt;/p&gt;
 
 
 &lt;p&gt;繪圖流程, 導入程式庫, 啟動, 然後引用各種模組開始繪圖
