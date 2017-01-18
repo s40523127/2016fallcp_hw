@@ -313,8 +313,10 @@ init_mathjax();
                 </div>
                 <!-- PELICAN_END_SUMMARY -->
 
-<!-- 導入 Brython 標準程式庫 -->
-
+<p>利用電腦來判斷數字大小並告訴你大於小於某數
+並導入html,
+html.BR()=為你所顯現出來的東西空行,為html時專用
+<!-- 導入 Brython 標準程式庫 --></p>
 <script type="text/javascript" 
     src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
 </script>
@@ -340,7 +342,7 @@ def compa(e):
     # 如何判斷所輸入的整數比 10 大
     try:
         if int(your_input) > 10:
-            c <= "所輸入的整數:" + your_input + "比 10 大" + html.BR()
+            c <= "所輸入的整數:" + your_input + "比 10 大" + 並導入html
         else:
             c <= "所輸入的整數:" + your_input + "比 10 小" + html.BR()
     except:
